@@ -47,7 +47,7 @@ newImg.addEventListener("click", () => {
 
 document.getElementById('diedText').innerHTML = "!!GG GET REVENGE!!";
 document.getElementById('diedText').style.color = "#0007ff";
-document.getElementById("leaderboard").append ('🔥【﻿HI MOD﻿🔥');
+document.getElementById("leaderboard").append ('🔥﻿HI MOD﻿🔥');
 $("#mapDisplay").css({background: `url('https://ksw2-center.glitch.me/users/fzb/map.png?z=${performance.now()}&u=a')`});
 document.getElementById('loadingText').innerHTML = ' 🔥【﻿HI()_()ｍｏｄ﻿】🔥 being prepared... '
 this
