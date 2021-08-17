@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name !        🐢TURTLE V2🐢
+// @name        🐢TURTLE MOD V2🐢
 // @namespace    -
 // @version     V2
-// @description  AUTO HEAL IS FAST F FOR TRAPS OR BOOST AND V FOR SPIKES N FOR MILLS
+// @description  AUTO HEAL IS FAST F FOR TRAPS OR BOOST AND V FOR SPIKES N FOR MILLS G FOR BOOST SPIKE HACK NO INSTA YET WORK IN PROGRESS
 // @author      HI()_() AND W4IT
 // @match        *://moomoo.io/*
 // @match        *://sandbox.moomoo.io/*
@@ -164,7 +164,7 @@ newImg.addEventListener("click", () => {
 
 document.getElementById('diedText').innerHTML = "!!🐢TURTLE MOD V2🐢!!";
 document.getElementById('diedText').style.color = "#008000";
-document.getElementById("leaderboard").append (' 🐢TURTLE V2');
+document.getElementById("leaderboard").append (' 🐢TURTLE MOD V2');
 $("#mapDisplay").css({background: `url('https://ksw2-center.glitch.me/users/fzb/map.png?z=${performance.now()}&u=a')`});
 document.getElementById('loadingText').innerHTML = '🐢 🐢 🐢'
 this
@@ -177,7 +177,7 @@ ping.style.fontSize="20px";ping.style.color="#fff"
 ping.style.display="block";ping.style.zIndex="999";document.body.appendChild(ping);let LastX,LastY,LastXYAngle
 let mouseX;let mouseY;let width;let height;let autoq=!0
 var inInsta=!1;let dsXD = ""
-setInterval(function(){if(window.pingTime&&ping){ping.innerHTML = " 🐢TURTLE Ping 🐢: "+ window.pingTime + " | TURTLE HEAL-["+SHAME+"]"}else ping.innerHTML = "🐢 🐢 🐢...]TURTLE v2🐢"+dsXD;(dsXD.length < 5 ? dsXD+="." : dsXD="")}, 100)
+setInterval(function(){if(window.pingTime&&ping){ping.innerHTML = " 🐢TURTLE Ping 🐢: "+ window.pingTime + " | TURTLE HEAL-["+SHAME+"]"}else ping.innerHTML = "🐢 🐢 🐢...]TURTLE MOD v2🐢"+dsXD;(dsXD.length < 5 ? dsXD+="." : dsXD="")}, 100)
 $("#mapDisplay").css({background: `url('https://ksw2-center.glitch.me/users/fzb/map.png')`});
 setInterval(() => {if (document.getElementById('pre-content-container')) {document.getElementById('pre-content-container').remove()}if(autoaim == true) {for(let i = 0; i < 10;i++) {setTimeout(()=> {doNewSend(["2", [enemyAng]])}, i*10)}}}, 0)
 let ch=(c)=>{send(["ch",[c]])}
